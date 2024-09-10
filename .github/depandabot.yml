@@ -1,0 +1,12 @@
+version: 2
+updates:
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: monthly
+    assignes:
+      - "noah-janzen"
+    labels:
+      - Dependencies
+    commit-message:
+      prefix: chore
